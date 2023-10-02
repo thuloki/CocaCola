@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: 0 0 30px rgb(255, 0, 0);
+    background-color: black ;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.anuncios {
+    width: 1350px;
+    height: 700px;
+    display: block;
+    margin: 0%;
+}
+
+.anuncio1 {
+    position: relative;
+    width: 675px;
+    height: 400px;
+    display:inline-grid;
+   justify-content: space-between;
+   
+}
+
+.anuncio2 {
+    position: absolute;
+    width: 675px;
+    height: 400px;
+    display: inline-grid;
+    justify-content: space-between;
+   
+}
+
+#container {
+    position: relative;
+  }
+
+.foto {
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-left: 200px;
+    border-right: 3px solid ;
+}
+
+h2 {
+    font-size: 26px;
+}
+
+.texto {
+    display: inline-block;
+    padding: 40px;
+    margin-left: 600px;
+    margin-right: 200px;
+}
+
+.refresco {
+    position: absolute;
+    width: 400px;
+    z-index: -1;
+   right: 10px;
+}
+
+
+.refresco2 {
+    position: absolute;
+    width: 250px;
+    z-index: -1;
+   left:  10px;
+   
+}
+
+.refresco3 {
+    position: absolute;
+    width: 250px;
+    z-index: -1;
+   right: 10px;
+}
+
+.refresco4 {
+    position: absolute;
+    width: 350px;
+    z-index: -1;
+   left: 10px;
+}
+
+.refresco5 {
+    position: absolute;
+    width: 350px;
+    z-index: -1;
+   right: 10px;
+}
+
+
+.division {
+    width: 1350px;
+    height: 300px;
+    opacity: 0.4;
+}
+
+.titulo {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+/*Productos texto*/
+
+.txtHistoria {
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+.titulo2 {
+    margin-top: 60px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.txt2 {
+    margin-top: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;
+}
+
+
+/*Cuadros texto productos*/
+
+.product-info {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: auto;
+    grid-gap: 4rem; 
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.product {
+    padding-bottom: 5px;
+    text-align: center;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.product img {
+    width: 300px;
+    height: 250px;
+    border-radius: 25px 25px 0 0;
+}
+
+.product h3 {
+    font-size: 20px;
+    color: #303030;
+    margin-top: 15px;
+}
+
+.product p {
+    font-size: 16px;
+    padding: 15px;
+    color: #545454;
+    margin: 0;
+}
+
+    .product span {
+        background: black;
+        padding: 10px;
+        color: #ffffff;
+        border-radius: 15px;
+    }
+
+
+
+/*Contactanos*/
+
+    .title {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2em;
+    }
+    
+    .title h2 {
+        color: #000;
+        font-weight: 700;
+    }
+    
+    .contact-wrap {
+        width: 80%;
+        height: auto;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contact-in {
+        padding: 40px 30px;
+    }
+    
+    .contact-in:nth-child(1) {
+        flex: 30%;
+        background: url(fotos/fondo1.jpg);
+        color: white;
+    }
+    
+    .contact-in:nth-child(2) {
+        flex: 45%;
+        background: linear-gradient(black,red, white);
+    }
+    
+    .contact-in:nth-child(3) {
+        flex: 25%;
+        padding: 0;
+    }
+    
+    .contact-in h1 {
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    
+    .contact-in h2 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    
+    .contact-in h2 i {
+        font-size: 16px;
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        background: #f5f5f5;
+        color: #000;
+        border-radius: 50px;
+        line-height: 40px;
+        text-align: center;
+    }
+    
+    .contact-in p {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .contact-in ul {
+        padding: 0;
+        margin: 0;
+    }
+    
+    .contact-in ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .contact-in ul li a {
+        display: block;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        background: #fff;
+        border-radius: 50px;
+    }
+    
+    .contact-in ul li a i {
+        font-size: 14px;
+        line-height: 30px;
+        color: #000;
+    }
+    
+    .contact-in form {
+        width: 100%;
+        height: auto;
+    }
+    
+    .contact-in-input {
+        width: 100%;
+        height: 40px;
+        margin-bottom: 20px;
+        border: 2px solid #fff;
+        outline: none;
+        padding-left: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .contact-in-input::placeholder {
+        color: #fff;
+    }
+    
+    .contact-in-textarea {
+        width: 100%;
+        height: 140px;
+        margin-bottom: 20px;
+        border: 2px solid #fff;
+        outline: none;
+        padding-top: 5px;
+        padding-left: 5px;
+        background: transparent;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .contact-in-textarea::placeholder {
+        color: #fff;
+    }
+    
+    .contact-in-btn {
+        width: 100%;
+        height: 40px;
+        border-radius: 22px;
+        outline: none;
+        background: black;
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+        cursor: pointer;
+    }
